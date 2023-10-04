@@ -1,0 +1,127 @@
+div {
+  overflow: hidden;
+}
+
+.carousel-item {
+  height: 50%;
+}
+
+.App-header {
+  background-color: white;
+  padding: 0.5rem;
+}
+
+.Movie-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.Movie-wrapper {
+  width: 250px;
+  color: black;
+  border-radius: 10px;
+}
+
+.Movie-image {
+  height: 100%;
+  width: 100%;
+  margin-bottom: -10px;
+}
+
+.Movie-title {
+  height: 50px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.Movie-search {
+  height: 18px;
+  font-size: 18px;
+  margin-bottom: 32px;
+  padding: 16px;
+  font-weight: bold;
+  width: 300px;
+}
+
+.Movie-caption {
+  text-align: left;
+  margin-bottom: 150px;
+}
+
+.img{
+  height: 700px;
+  max-width: 100%;
+}
+
+.Movie-judul {
+  margin-bottom: 20px;
+}
+
+.Movie-deskripsi {
+  margin-bottom: 40px;
+}
+
+.Movie-btn {
+  padding-top: 20px;
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.Movie-more {
+  text-align: right;
+  margin-top: -40px;
+  color: red;
+  font-weight: bold;
+}
+
+.Movie-arrowRight {
+  color: red; 
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.form-control{
+	margin: 70px;
+  margin-top: 10px;
+  margin-left: -40px;
+	background: transparent;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+  margin-right: 100px;
+}
+
+.Movie-login {
+  border: solid 1px;
+  color: red;
+  background-color: transparent;
+  padding: 10px;
+  width: 110px;
+  border-radius: 30px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+}
+
+.Movie-register {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  width: 110px;
+  border-radius: 30px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+.Movie-detail {
+  color: white;
+  margin-top: 0px;
+  position: absolute;
+}
