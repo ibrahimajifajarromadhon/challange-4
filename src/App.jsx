@@ -40,8 +40,6 @@ const App = () => {
     }
   }
 
-  console.log({ popularMovies: popularMovies })
-
   const showMovieDetail = (movie) => {
     setSelectedMovie(movie);
     setCarouselActive(false);

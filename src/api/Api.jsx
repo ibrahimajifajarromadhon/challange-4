@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const getMovieList = async () => {
-    const movie = await axios.get("https://api.themoviedb.org/3/movie/popular?api_key=3c892387424c866050c27a24982a568e")
+    const movie = await axios.get("https://api.themoviedb.org/3/movie/top_rated?api_key=3c892387424c866050c27a24982a568e")
     return movie.data.results
 }
 
